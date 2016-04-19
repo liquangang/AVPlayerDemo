@@ -42,6 +42,7 @@
     [self.playButton setTitle:@"播放" forState:UIControlStateNormal];
     [self.playButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     self.playButton.font = [UIFont boldSystemFontOfSize:12];
+    self.playButton.backgroundColor = [UIColor grayColor];
     
     UIButton * pauseButton = [[UIButton alloc] initWithFrame:CGRectMake(66, 64, 50, 50)];
     [self.view addSubview:pauseButton];
